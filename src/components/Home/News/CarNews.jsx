@@ -1,37 +1,44 @@
 import React from 'react'
 import Slider from 'react-slick'
 import CarNewsCard from './CarNewsCard'
+import News1 from '../../../assets/img/news1.jpg'
+import News2 from '../../../assets/img/news2.jpg'
+import News3 from '../../../assets/img/news3.jpg'
+import News4 from '../../../assets/img/news4.jpg'
+import News5 from '../../../assets/img/news5.jpg'
+import News6 from '../../../assets/img/news6.jpg'
+
 
 const CarNews = () => {
   const newsData = [
     {
       id: 0,
-      img: '/src/assets/img/news1.jpg',
+      img: News1,
       desc: 'Toyota touts internal combustion engine potential, even in EV age',
     },
     {
       id: 1,
-      img: '/src/assets/img/news2.jpg',
+      img: News2,
       desc: 'BMW Group North America clocks best-ever annual sales in 2023, leads luxury electric car segment',
     },
     {
       id: 2,
-      img: '/src/assets/img/news3.jpg',
+      img: News3,
       desc: 'MG Astor 2024 launched in US, price starts at $122,000',
     },
     {
       id: 3,
-      img: '/src/assets/img/news4.jpg',
+      img: News4,
       desc: 'Kia Sonet facelift launched in India at Rs 7.99 lakh, Tata Nexon & Maruti Suzuki Brezza rival',
     },
     {
       id: 4,
-      img: '/src/assets/img/news5.jpg',
+      img: News5,
       desc: 'First Shift: New-vehicle inventory reaches 3-year high',
     },
     {
       id: 5,
-      img: '/src/assets/img/news6.jpg',
+      img: News6,
       desc: 'UK sales rise 74% in Q3 on robust demand for Range Rover, Range Rover Velar, Defender',
     },
   ]
